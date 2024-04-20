@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+    <header>
+        <h1>A webpage about me</h1>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>Hello, my name is Shangana Yadav, and this is a little webpage about myself. </p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p>I am currently pursuing Btech in Information Technology from RGIPT.</p>
+    </section>
+
+    <section>
+        <h2>Home</h2>
+        <p>I live in Lucknow.</p>
+    </section>
+    <header>
+        <h1>Spider-Man</h1>
+    </header>
+
+    <section>
+        <img src="C:\Users\hp\Downloads\Spider-Man.jpg" alt="Spider-Man" style="width: 50%;">
+        <p>This image is of spiderman. He is a superhero in the Marvel universe.</p>
+    </section>
+    <header>
+        <h1>Spoken Languages in Different Countries</h1>
+    </header>
+
+    <section>
+        <ol type="I">
+            <li>
+                <p>India</p>
+                <ol type="i">
+                    <li>Hindi</li>
+                    <li>English</li>
+                </ol>
+            </li>
+
+            <li>
+                <p>France</p>
+                <ol type="i">
+                    <li>French</li>
+                    <li>German</li>
+                </ol>
+            </li>
+
+            <li>
+                <p>Russia</p>
+                <ol type="i">
+                    <li>Russian</li>
+                    <li>English</li>
+                </ol>
+            </li>
+        </ol>
+    </section>
+    <header>
+        <h1>Countries and Capitals</h1>
+    </header>
+
+    <section>
+        <table>
+            <tr>
+                <td>
+                    <h2>Countries</h2>
+                    <ul>
+                        <li>India</li>
+                        <li>Russia</li>
+                        <li>Pakistan</li>
+                        <li>South Korea</li>
+                        <li>Japan</li>
+                    </ul>
+                </td>
+                <td>
+                    <h2>Capitals</h2>
+                    <ol>
+                        <li>New Delhi</li>
+                        <li>Moscow</li>
+                        <li>Islamabad</li>
+                        <li>Seoul</li>
+                        <li>Tokyo</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+    </section>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Country</th>
+        <th colspan="2">Politicians</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Row 1 -->
+      <tr>
+        <!-- Column 1: Country -->
+        <td rowspan="2">Turkmenistan</td>
+
+        <!-- Column 2: Politicians -->
+        <td>President</td>
+        <td>Gurbanguly Berdimuhamedow</td>
+      </tr>
+      <!-- Row 2 -->
+      <tr>
+        <td>Vice-President</td>
+        <td>Raşit Meredow</td>
+      </tr>
+      <!-- Row 3 -->
+      <tr>
+        <td rowspan="2">Eritrea</td>
+
+        <td>President</td>
+        <td>Isaias Afwerki</td>
+      </tr>
+      <!-- Row 4 -->
+      <tr>
+        <td>Vice-President</td>
+        <td>None</td>
+      </tr>
+    </tbody>
+  </table>
+    <header>
+        <h1>My Favorite Websites on Internet</h1>
+    </header>
+
+    <section>
+        <ul>
+            <li><a href="https://www.google.co.in" target="_blank">Favorite Website 1</a></li>
+            <li><a href="https://www.youtube.com" target="_blank">Favorite Website 2</a></li>
+            <li><a href="https://www.canva.com" target="_blank">Favorite Website 3</a></li>
+            <li><a href="https://www.figma.com" target="_blank">Favorite Website 4</a></li>
+        </ul>
+    </section>
+    <header>
+        <h1>Content Below</h1>
+    </header>
+
+    <section>
+       Hello, my name is Shangana Yadav. I am studying Information Technology in RGIPT.
+
+        <p><a href="#top">Jump to Top</a></p>
+    </section>
+
+    <footer>
+        <a id="top"></a>
+    </footer>
+    <header>
+        <h1>Content Below</h1>
+    </header>
+
+    <section>
+        Hello, my name is Shangana Yadav. I am studying Information Technology in RGIPT.
+
+        <p><a href="#top">Jump to Top</a></p>
+    </section>
+
+    <footer>
+        <a id="bottom"></a>
+        <p><a href="#bottom">Jump to Bottom</a></p>
+    </footer>
+    <style>
+        img {
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Spider-Man with Border</h1>
+    </header>
+
+    <section>
+        <img src="C:\Users\hp\Downloads\Spider-Man.jpg" alt="Spider-Man">
+    </section>
+    <header>
+        <h1>Shangana's Image Gallery</h1>
+    </header>
+
+    <section>
+        <figure>
+            <img src="C:\Users\hp\Downloads\Spider-Man.jpg"alt="Spider-Man" width="300" height="200">
+            <figcaption>This image is of spiderman. He is a superhero in the Marvel universe.</figcaption>
+        </figure>
+        <br><br>
+
+        <figure>
+            <img src="C:\Users\hp\Downloads\thor.webp" alt="Thor" width="300" height="200">
+            <figcaption>God of Thunder</figcaption>
+        </figure>
+        <br><br>
+
+        <figure>
+            <img src="C:\Users\hp\Downloads\iron-man.jpeg" alt="Iron-Man" width="300" height="200">
+            <figcaption>He is a genius, billionaire and philanthropist</figcaption>
+        </figure>
+        <br><br>
+
+        <figure>
+            <img src="C:\Users\hp\Downloads\wanda.jpeg" alt="Wanda Maximoff" width="300" height="200">
+            <figcaption>She is the Scarlet witch.</figcaption>
+        </figure>
+        <br><br>
+
+        <figure>
+            <img src="C:\Users\hp\Downloads\dr.jpeg" alt="Dr. Stephan Strange" width="300" height="200">
+            <figcaption>He is a neurologist.</figcaption>
+        </figure>
+        <br><br>
+    </section>
+<header>
+        <h1>Clickable Image made by Shangana</h1>
+    </header>
+
+    <section>
+        <a href="https://www.youtube.com" target="_blank">
+            <img src="C:\Users\hp\Downloads\Spider-Man.jpg" alt="Spider-Man" width="300" height="200">
+        </a>
+    </section>
+
+</body>
+</html>
